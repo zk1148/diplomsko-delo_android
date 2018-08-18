@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="rokada.rvk.Tab2Inventura"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="10dp">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:visibility="visible"
+        android:weightSum="1"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-6dp">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:text="SKLADIŠČE"
+            android:textColor="?android:attr/colorMultiSelectHighlight"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/skladisce"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="arial"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="97dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="ŠIFRA"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="67dp" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible"
+            android:weightSum="1">
+
+            <EditText
+                android:id="@+id/sifra"
+                android:layout_width="149dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="169dp"
+                tools:layout_editor_absoluteY="56dp"
+                android:textSize="20sp"/>
+
+            <Button
+                android:id="@+id/btn_nalozi"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="@android:drawable/ic_menu_rotate"
+                android:text="" />
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="NAZIV ARTIKLA"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/artikel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.57"
+            android:fontFamily="arial"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="KOLIČINA"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="67dp" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible"
+            android:weightSum="1"
+            >
+
+            <EditText
+                android:id="@+id/kolicina"
+                android:layout_width="103dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:ems="10"
+                android:inputType="phone"
+                android:text=""
+                tools:layout_editor_absoluteX="169dp"
+                tools:layout_editor_absoluteY="56dp"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/em"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="12dp"
+                android:fontFamily="arial"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+
+
+        <TextView
+            android:id="@+id/zaloga"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:fontFamily="arial"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_dodaj"
+            android:layout_width="167dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="VNOS"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="33dp"
+            tools:layout_editor_absoluteY="360dp" />
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="rokada.rvk.Tab2Inventura"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="10dp">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:visibility="visible"
+        android:weightSum="1"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="-6dp">
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SKLADIŠČE"
+            android:textColor="?android:attr/colorActivatedHighlight"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/skl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="arial"
+            android:textColor="#000000"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="VRSTA TRANSAKCIJE"
+            android:textColor="?android:attr/colorActivatedHighlight"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/vt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="arial"
+            android:textColor="#000000"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="ŠTEVILKA DOKUMENTA"
+            android:textColor="?android:attr/colorActivatedHighlight"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/stev"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="arial"
+            android:textColor="#000000"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="DELOVNI NALOG"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/delnalog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.57"
+            android:fontFamily="arial"
+            android:textColor="#000000"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KUPEC"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/kupec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="arial"
+            android:textColor="#000000"
+            android:textSize="18dp" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible"
+            android:weightSum="1">
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible"
+            android:weightSum="1">
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="DATUM"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/datum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="arial"
+            android:textColor="#000000"
+            android:textSize="18dp" />
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

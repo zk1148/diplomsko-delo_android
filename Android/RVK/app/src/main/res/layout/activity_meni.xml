@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="rokada.rvk.MeniActivity"
+    android:background="@drawable/android_ozadje_vilicar_vecji">
+
+    <LinearLayout
+        android:layout_width="396dp"
+        android:layout_height="507dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:visibility="visible"
+        android:weightSum="1"
+        tools:layout_editor_absoluteX="-5dp"
+        tools:layout_editor_absoluteY="1dp">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="RISP SQL"
+            android:textColor="?attr/actionModeSplitBackground"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="83dp"
+            tools:layout_editor_absoluteY="72dp" />
+
+
+        <Button
+            android:id="@+id/btn_vstop"
+            android:layout_width="185dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="250dp"
+            android:layout_weight="0.03"
+            android:text="TESTNA BAZA"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="111dp"
+            tools:layout_editor_absoluteY="322dp" />
+
+        <Button
+            android:id="@+id/btn_produkcijska"
+            android:layout_width="184dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="10dp"
+            android:text="PRODUKCIJSKA BAZA"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="111dp"
+            tools:layout_editor_absoluteY="322dp"
+            android:layout_weight="0.03"
+            android:textColor="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
